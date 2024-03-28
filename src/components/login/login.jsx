@@ -24,7 +24,7 @@ const Login = () => {
           }
      
          }).catch(err=>{
-          console.log('error in axios')
+          console.log(err)
          })
         
 
